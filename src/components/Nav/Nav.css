@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: flex-end;
+  float: left;
+  border-left: 1px solid #bbb;
+}
+h1 {
+  color: white;
+  font-size: 25px;
+}
+.contenedor-nav {
+  background-color: #333;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.mi-nombre {
+  font-size: 25px;
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  user-select: none;
+}
+.mi-profesion {
+  font-size: 25px;
+  color: white;
+  justify-content: center;
+}
+.lista-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 390px;
+  width: 100%;
+}
+.link {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link :hover {
+  background-color: rgb(213, 29, 29);
+}
